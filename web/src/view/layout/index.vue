@@ -23,6 +23,7 @@
             class="inline-flex font-bold text-2xl"
             :style="{color:textColor}"
           >{{ $GIN_VUE_ADMIN.appName }}</div>
+          1111
         </div>
         <Aside class="aside" />
       </el-aside>

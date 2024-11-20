@@ -70,6 +70,7 @@ export const useRouterStore = defineStore('router', () => {
       children: []
     }]
     const asyncRouterRes = await asyncMenu()
+    console.log(asyncRouterRes)
     const asyncRouter = asyncRouterRes.data.menus
     asyncRouter && asyncRouter.push({
       path: 'reload',
